@@ -1,23 +1,26 @@
 {
-  "name":"webcrawlerhttp",
-  "version":"1.0.0",
+  "name": "webcrawlerhttp",
+  "version": "1.0.0",
   "description": "Project for the Learn HTTP course",
   "main": "main.js",
   "scripts": {
-    "start":"node main.js",
+    "start": "node main.js",
     "test": "jest"
   },
-  "repository":{
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/sashavirtual/webcrawlerhttp.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs":{
-    "url":"https://github.com/sashavirtual/webcrawlerhttp/issues"
+  "bugs": {
+    "url": "https://github.com/sashavirtual/webcrawlerhttp/issues"
   },
   "homepage": "https://github.com/sashavirtual/webcrawlerhttp#readme",
   "devDependencies": {
     "jest": "^29.4.1"
+  },
+  "dependencies": {
+    "jsdom": "^20.0.3"
   }
 }
