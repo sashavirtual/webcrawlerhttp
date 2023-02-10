@@ -34,7 +34,7 @@ test('getURLsfromHTML absolute', () => {
     <html>
         <body>
             <a href="https://blog.boot.dev/path/">
-            Bood.dev Blog
+            Boot.dev Blog
             </a>
         </body>
     </html>    
@@ -50,10 +50,10 @@ test('getURLsfromHTML both', () => {
     <html>
         <body>
             <a href="https://blog.boot.dev/path1/">
-                Bood.dev Blog
+                Boot.dev Blog
             </a>
             <a href="/path2/">
-                Bood.dev Blog
+                Boot.dev Blog
             </a>
         </body>
     </html>    
